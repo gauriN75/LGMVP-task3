@@ -1,0 +1,62 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@1,200&family=Comfortaa:wght@500&family=Cormorant+Garamond:wght@300;600&family=Didact+Gothic&family=Dosis:wght@300&family=Lato:wght@300&family=Nanum+Myeongjo&family=Orbitron&family=Prata&family=Questrial&family=Roboto:wght@100;300&family=Zen+Antique+Soft&display=swap');
+
+*{
+  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Didact Gothic', sans-serif; 
+} 
+
+#main{
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("img.png");
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+}
+
+#input{
+  width: 45rem;
+  height: 30rem;
+  box-shadow: 10px 15px 25px rgb(69, 120, 150);
+  position: relative;
+  margin: 8% auto;
+  font-weight: bolder;
+  background-color: transparent;
+  padding: 8px;
+  color: rgb(239, 236, 241);
+  text-align: center;
+}
+
+input{
+  font-weight: bolder;
+  background-color: rgba(87, 137, 167, 0.8);
+  color: white;
+  border: 2px solid rgb(75, 114, 136);
+  margin: 12px;
+  padding: 12px;
+  box-shadow: 4px 4px 10px rgb(69, 120, 150);
+  border-radius: 13px;
+}
+
+#check:hover{
+  color: rgb(75, 114, 136);
+  background-color: transparent;
+  transform: scale(1.02);
+}
+
+#studentname:hover{
+  background-color: transparent;
+}
+
+#output:hover{
+  color: black;
+  transform: scale(1.03);
+  letter-spacing: 0.4em;
+  word-spacing: 0.3rem;
+  font-weight: bolder;
+}
+
+p{
+  margin-top: 20px;
+}
